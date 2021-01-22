@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="django_granular_permissions",
-	version="0.4",
+	version="0.5",
 	description="Django Granular Permissions allow you to setup per-row permissions.",
     author="Yazzg",
 	author_email="yazzg...@gmail.com",

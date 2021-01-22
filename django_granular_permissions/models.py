@@ -113,9 +113,9 @@ if VERSION[0]=='newforms-admin' or VERSION[0]>0:
         group = models.ForeignKey(Group, null=True)
         
         class Meta:
-		app_label = 'django_granular_permissions'            
-		verbose_name = 'permission'
-            	verbose_name_plural = 'permissions'
+            app_label = 'django_granular_permissions'            
+            verbose_name = 'permission'
+            verbose_name_plural = 'permissions'
             
             
     class PermissionAdmin(admin.ModelAdmin):
